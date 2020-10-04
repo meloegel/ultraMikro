@@ -12,11 +12,16 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/publications" >Publications</NavLink>
-          <NavLink to='/gallery'>Gallery</NavLink>
-          <NavLink to='/contact'>Contact</NavLink>
+        <nav className='nav'>
+          <div className='navLinks'>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/publications" >Publications</NavLink>
+            <NavLink to='/gallery'>Gallery</NavLink>
+            <NavLink to='/contact'>Contact</NavLink>
+          </div>
+          <div className='navLogoDiv'>
+            <img src={require('./img/logo.jpg')} alt='logo' className='navLogo' />
+          </div>
         </nav>
         <div>
           <Switch>
