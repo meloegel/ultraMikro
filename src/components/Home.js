@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <div className='titleDiv'>
-                <h1>Ultra Mikro</h1>
+                <h1 className='mainTitle'>Ultra Mikro</h1>
             </div>
             <h1>Scope of Services</h1>
             <p>Ultramikro, LLC is a consultant firm providing guidance for pharmaceutical and food industries in

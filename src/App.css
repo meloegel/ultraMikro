@@ -1,22 +1,12 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 /* |||  Nav  ||| */
@@ -36,4 +26,70 @@
 .navLogoDiv {
   text-align: left;
   padding: 0.5rem;
+}
+
+/* |||   Home Page ||| */
+
+.mainTitle {
+  font-size: 6rem;
+  margin: auto;
+  position: relative;
+  color: white;
+}
+.titleDiv {
+  height: 800px;
+  background-image: url("./img/justin-case-rVdoD3KGFCs-unsplash\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ||| Publications Page ||| */
+
+/* ||| Gallery Page ||| */
+
+/* ||| Contact Page ||| */
+
+.contactDiv {
+  height: 1100px;
+  background-image: url("./img/smallerSnowflake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+address {
+  font-size: 2rem;
+  text-shadow: 0 0 5px black;
+  padding: 0 0 0 1rem;
+}
+.email {
+  font-size: 2rem;
+  text-shadow: 0 0 5px black;
+  padding: 0 0 0 1rem;
+  margin: auto;
+}
+
+.addrDiv {
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 0 0 5px black;
+  font-size: 1.2rem;
+}
+.contactPhone {
+  font-size: 2rem;
+  text-shadow: 0 0 5px black;
+}
+.contactDiv h1 {
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+.contactDiv h2 {
+  text-shadow: 0 0 5px black;
 }
