@@ -16,21 +16,40 @@ body {
 
 .navLogo {
   max-height: 100px;
+  border-radius: 1.2rem;
 }
 .nav {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav :visited {
+  color: white;
 }
 .navHeader {
   text-align: right;
+  padding: 1rem;
 }
 .navFooter {
   text-align: right;
+  display: flex;
+  align-items: flex-end;
 }
 .navHeader a {
   padding: 1rem;
+  text-decoration: none;
+}
+.navHeader :hover {
+  background-color: white;
+  color: black;
 }
 .navFooter a {
   padding: 1rem;
+  text-decoration: none;
+}
+.navFooter :hover {
+  background-color: white;
+  color: black;
 }
 .navLogoDiv {
   text-align: left;

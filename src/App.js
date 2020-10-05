@@ -32,15 +32,14 @@ function App() {
           </Switch>
         </div>
         <nav className='nav'>
-
           <div className='navLogoDiv'>
             <img src={require('./img/logo.jpg')} alt='logo' className='navLogo' />
-            <div className='navFooter'>
-              <NavLink to="/">Home</NavLink>
-              <NavLink to="/publications" >Publications</NavLink>
-              <NavLink to='/gallery'>Gallery</NavLink>
-              <NavLink to='/contact'>Contact</NavLink>
-            </div>
+          </div>
+          <div className='navFooter'>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/publications" >Publications</NavLink>
+            <NavLink to='/gallery'>Gallery</NavLink>
+            <NavLink to='/contact'>Contact</NavLink>
           </div>
         </nav>
       </div>
