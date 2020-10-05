@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <nav className='nav'>
-          <div className='navLinks'>
+          <div className='navHeader'>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/publications" >Publications</NavLink>
             <NavLink to='/gallery'>Gallery</NavLink>
@@ -32,14 +32,15 @@ function App() {
           </Switch>
         </div>
         <nav className='nav'>
-          <div className='navLinks'>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/publications" >Publications</NavLink>
-            <NavLink to='/gallery'>Gallery</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
-          </div>
+
           <div className='navLogoDiv'>
             <img src={require('./img/logo.jpg')} alt='logo' className='navLogo' />
+            <div className='navFooter'>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/publications" >Publications</NavLink>
+              <NavLink to='/gallery'>Gallery</NavLink>
+              <NavLink to='/contact'>Contact</NavLink>
+            </div>
           </div>
         </nav>
       </div>

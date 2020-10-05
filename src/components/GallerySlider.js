@@ -17,7 +17,7 @@ class SimpleSlider extends React.Component {
             <div className='sliderDiv'>
                 <Slider {...settings}>
                     <div className='galleryDiv'>
-                        <img src={require('../img/1a_Adipic_acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
+                        <img src={require('../img/Adipic_acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
                         <h3>Adipic acid - Feather Dance</h3>
                     </div>
                     <div className='galleryDiv'>
