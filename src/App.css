@@ -79,6 +79,14 @@ body {
   justify-content: center;
   border-bottom: 2px solid white;
 }
+.scope {
+  width: 90%;
+  margin: 0 auto;
+}
+.services {
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* ||| Publications Page ||| */
 .pubDiv {
