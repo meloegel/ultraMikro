@@ -1,3 +1,5 @@
+/* ||| Global || */
+
 * {
   box-sizing: border-box;
 }
@@ -6,12 +8,6 @@ body {
   color: white;
   border-right: 2px solid white;
   border-left: 2px solid white;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 /* |||  Nav  ||| */
@@ -82,10 +78,12 @@ body {
 .scope {
   width: 90%;
   margin: 0 auto;
+  font-size: 1.4rem;
 }
 .services {
   width: 90%;
   margin: 0 auto;
+  font-size: 1.4rem;
 }
 
 /* ||| Publications Page ||| */
@@ -102,6 +100,13 @@ body {
 }
 .className {
   text-align: center;
+}
+.pubList {
+  height: 90vh;
+  font-size: 1.2rem;
+}
+.pubList li {
+  padding: 0.5rem;
 }
 
 /* ||| Gallery Page ||| */
@@ -134,6 +139,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  font-size: 1.4rem;
 }
 .aboutArt div {
   width: 40%;
@@ -200,4 +206,61 @@ address {
 }
 h3 {
   color: white;
+}
+
+/* ||| Media Queries ||| */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media only screen and (max-width: 620px) {
+  /* ||| Gallery Page ||| */
+  .aboutArt {
+    flex-direction: column;
+    text-align: center;
+  }
+  .aboutArt div {
+    width: 90%;
+    margin: 0 atuo;
+  }
+  .scottImgDiv {
+    margin: 0 auto;
+  }
+  .price {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  /* ||| Publications ||| */
+  .pubList {
+    height: 110vh;
+  }
+  .pubList li {
+    padding: 0.1rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  /* ||| Publications ||| */
+  .pubList {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* ||| Publications ||| */
+  .pubList li {
+    padding: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* ||| Publications ||| */
+  .pubList {
+    font-size: 0.9rem;
+  }
+  .pubList li {
+    padding: 0.1rem;
+  }
 }

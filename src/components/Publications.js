@@ -9,7 +9,7 @@ const Publications = () => {
             <div className='pubDiv'>
                 <h1 className='pubTitle'>Publications</h1>
                 <div>
-                    <ol>
+                    <ol className='pubList'>
                         <li>Aldrich, D.S., "Particulate Formation as the Result of Packaging Interactions", PROCEEDINGS of the European Organization for Quality Control Conference on Visible and Subvisible Particles in Parenteral Products, Brussels, Belgium, 261 (1985).</li>
                         <li>Borchert, S.J., Abe, A., Aldrich, D.S., Fox, L.E., Freeman, J.E. and White, R.D., "Particulate Matter in Parenteral Products: A Review,"Journal of Parenteral Science and Technology, Sept/Oct 212 (1986).</li>
                         <li>Borchert, S.J., Maxwell, R.J., Davison, R.L. and Aldrich, D.S., "Standard Particulate Sets for Visual Inspection Systems: Their Preparation, Evaluation and Applications", Journal of Parenteral Science and Technology, Nov/Dec 265 (1986). 1987 PDA JOURNAL AWARD RECIPIENT</li>
