@@ -265,3 +265,69 @@ h3 {
     padding: 0.1rem;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  /* ||| Nav ||| */
+  .navHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  /* ||| Home ||| */
+  .mainTitle {
+    text-align: center;
+  }
+  .scope {
+    font-size: 0.8rem;
+  }
+  .services {
+    font-size: 0.8rem;
+  }
+
+  /* ||| Publications ||| */
+  .pubList {
+    height: auto;
+  }
+  /* ||| Gallery ||| */
+  .galleryImg {
+    height: 70vh;
+  }
+  .aboutArt {
+    font-size: 0.8rem;
+  }
+  .crossedPolars {
+    font-size: 1.4rem;
+  }
+  #scottImg {
+    height: 80vh;
+  }
+  /* ||| Contact Page ||| */
+  .contactDiv {
+    font-size: 0.8rem;
+    height: auto;
+  }
+  .addrDiv {
+    font-size: 0.8rem;
+  }
+  .contactPhone {
+    font-size: 1.2rem;
+  }
+  .email {
+    font-size: 1.2rem;
+  }
+  #scottImgContact {
+    height: 80vh;
+  }
+}

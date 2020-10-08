@@ -5,7 +5,7 @@ import React from 'react'
 const Contact = () => {
 
     return (
-        <div>
+        <div id='contactPage'>
             <div className='contactDiv'>
                 <h1>D Scott Aldrich<br></br>
                 President, Ultramikro, LLC<br></br>
