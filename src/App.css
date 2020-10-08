@@ -260,6 +260,7 @@ h3 {
   /* ||| Publications ||| */
   .pubList {
     font-size: 0.9rem;
+    height: auto;
   }
   .pubList li {
     padding: 0.1rem;
