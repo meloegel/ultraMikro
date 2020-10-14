@@ -8,7 +8,7 @@ const Publications = () => {
         <div>
             <div className='pubDiv'>
                 <h1 className='pubTitle'>Publications</h1>
-                <div>
+                <div className='pubListDiv'>
                     <ol className='pubList'>
                         <li>Aldrich, D.S., "Particulate Formation as the Result of Packaging Interactions", PROCEEDINGS of the European Organization for Quality Control Conference on Visible and Subvisible Particles in Parenteral Products, Brussels, Belgium, 261 (1985).</li>
                         <li>Borchert, S.J., Abe, A., Aldrich, D.S., Fox, L.E., Freeman, J.E. and White, R.D., "Particulate Matter in Parenteral Products: A Review,"Journal of Parenteral Science and Technology, Sept/Oct 212 (1986).</li>
