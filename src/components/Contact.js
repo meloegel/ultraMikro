@@ -13,7 +13,7 @@ const Contact = () => {
                 <h2>Contact Information</h2>
                 <div className='addrDiv'>
                     <h3>Address:</h3>
-                    <address>11133 ED Avenue <br></br>
+                    <address>11333 E.D Avenue <br></br>
                         Richland, MI 49083</address>
                 </div>
                 <p className='contactPhone'>Business phone/fax: (269)629-4995</p>

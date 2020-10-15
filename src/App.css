@@ -112,22 +112,24 @@ body {
   display: inline-block;
 }
 .pubList li {
-  padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 .pubTitle {
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   width: auto;
-  padding: 0.8rem;
+  padding: 1rem;
   margin: 1rem auto;
   border-radius: 2rem;
 }
 ol {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border-radius: 2rem;
-  padding: 0.6rem;
+  padding: 0.8rem;
+  list-style-position: inside;
+  text-align: left;
 }
 
 /* ||| Gallery Page ||| */
@@ -265,7 +267,7 @@ h3 {
 @media only screen and (max-width: 1600px) {
   /* ||| Publications ||| */
   .pubList {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 }
 
