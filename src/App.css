@@ -31,6 +31,7 @@ body {
 .navHeader {
   text-align: right;
   padding: 1rem 0rem;
+  color: white;
 }
 .navFooter {
   text-align: right;
@@ -295,6 +296,9 @@ h3 {
   }
   .pubList li {
     padding: 0.1rem;
+  }
+  .price {
+    width: 95%;
   }
 }
 
