@@ -197,6 +197,14 @@ ol {
   justify-content: center;
   align-items: center;
 }
+.contactDivStyle {
+  background-color: black;
+  opacity: 70%;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  align-items: center;
+}
 
 address {
   font-size: 2rem;
@@ -212,13 +220,14 @@ address {
 
 .addrDiv {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   text-shadow: 0 0 5px black;
   font-size: 1.2rem;
 }
 .contactPhone {
   font-size: 2rem;
   text-shadow: 0 0 5px black;
+  justify-content: space-evenly;
 }
 .contactDiv h1 {
   text-align: center;
