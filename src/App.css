@@ -338,7 +338,8 @@ h3 {
   }
   /* ||| Gallery ||| */
   .galleryImg {
-    height: 70vh;
+    height: auto;
+    width: 80%;
   }
   .aboutArt {
     font-size: 0.8rem;
@@ -347,7 +348,8 @@ h3 {
     font-size: 1.4rem;
   }
   #scottImg {
-    height: 80vh;
+    height: auto;
+    width: 80%;
   }
   /* ||| Contact Page ||| */
   .contactDiv {
@@ -364,6 +366,6 @@ h3 {
     font-size: 1.2rem;
   }
   #scottImgContact {
-    height: 80vh;
+    width: 80%;
   }
 }
