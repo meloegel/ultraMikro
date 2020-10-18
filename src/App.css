@@ -205,7 +205,7 @@ ol {
   border-radius: 2rem;
   text-align: center;
   align-items: center;
-  opacity: 75%;
+  opacity: 0.75;
 }
 
 address {
