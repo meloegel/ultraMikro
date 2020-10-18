@@ -41,6 +41,7 @@ body {
 .navHeader a {
   padding: 1rem;
   text-decoration: none;
+  color: white;
 }
 .navHeader :hover {
   background-color: white;
@@ -200,7 +201,7 @@ ol {
 }
 .contactDivStyle {
   background-color: black;
-  /* opacity: 70%; */
+  opacity: 70%;
   padding: 1rem;
   border-radius: 2rem;
   text-align: center;
