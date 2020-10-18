@@ -200,7 +200,7 @@ ol {
 }
 .contactDivStyle {
   background-color: black;
-  opacity: 70%;
+  /* opacity: 70%; */
   padding: 1rem;
   border-radius: 2rem;
   text-align: center;
