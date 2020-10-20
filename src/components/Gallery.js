@@ -17,10 +17,10 @@ const Gallery = () => {
                                     specimen is viewed between polarized filters, crossed at 90°.</p>
                     </div>
                     <div>
-                        <img src={require('../img/scope.jpg')} alt='Microscope' className='bottomGalleryImg' />
+                        <img src={require('../img/scope2.jpg')} alt='Microscope' className='bottomGalleryImg' />
                     </div>
                     <div>
-                        <img src={require('../img/microScope.jpg')} alt='Microscope Front' className='bottomGalleryImg' />
+                        <img src={require('../img/scope3.jpg')} alt='Microscope Front' className='bottomGalleryImg' />
                     </div>
                     <div>
                         <p> What we see are colors produced by interference of light waves after passing through the substance in

@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <div className='titleDiv'>
-                <h1 className='mainTitle'>Ultra Mikro</h1>
+                <h1 className='mainTitle'>Ultramikro</h1>
             </div>
             <div className='scope'>
                 <h1>Scope of Services</h1>
