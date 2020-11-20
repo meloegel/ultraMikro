@@ -22,7 +22,7 @@ const Contact = () => {
                         <p className='email'>Email: info@ultramikro.com</p>
                     </div>
                     <div id='scottImgDivContact'>
-                        <img id='scottImgContact' src={require('../img/Scott_Photo_2.jpg')} alt='Scott' />
+                        <img id='scottImgContact' src={require('../styles/img/Scott_Photo_2.jpg')} alt='Scott' />
                     </div>
                 </div>
             </div>

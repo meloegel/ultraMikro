@@ -17,19 +17,19 @@ class SimpleSlider extends React.Component {
             <div className='sliderDiv'>
                 <Slider {...settings}>
                     <div className='galleryDiv'>
-                        <img src={require('../img/Adipic_acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
+                        <img src={require('../styles/img/Adipic_acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
                         <h3>Adipic acid - Feather Dance</h3>
                     </div>
                     <div className='galleryDiv'>
-                        <img src={require('../img/chloro-anthraquinone_Froggy.jpg')} alt='Chloro-anthraquinone - Froggy' className='galleryImg' />
+                        <img src={require('../styles/img/chloro-anthraquinone_Froggy.jpg')} alt='Chloro-anthraquinone - Froggy' className='galleryImg' />
                         <h3>Chloro-anthraquinone - Froggy</h3>
                     </div>
                     <div className='galleryDiv'>
-                        <img src={require('../img/Methylparaben_Crystal Weave_Fuschia Thumb.jpg')} alt='Methylparabean Crystal Weave - Fuschia Thumb' className='galleryImg' />
+                        <img src={require('../styles/img/Methylparaben_Crystal Weave_Fuschia Thumb.jpg')} alt='Methylparabean Crystal Weave - Fuschia Thumb' className='galleryImg' />
                         <h3>Methylparabean Crystal Weave - Fuschia Thumb</h3>
                     </div>
                     <div className='galleryDiv'>
-                        <img src={require('../img/Propylparaben_SKY Thumb.jpg')} alt='Propylparaben - Sky Thumb' className='galleryImg' />
+                        <img src={require('../styles/img/Propylparaben_SKY Thumb.jpg')} alt='Propylparaben - Sky Thumb' className='galleryImg' />
                         <h3>Propylparaben - Sky Thumb</h3>
                     </div>
                 </Slider>

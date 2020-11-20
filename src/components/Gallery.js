@@ -17,10 +17,10 @@ const Gallery = () => {
                                     specimen is viewed between polarized filters, crossed at 90°.</p>
                     </div>
                     <div>
-                        <img src={require('../img/scope2.jpg')} alt='Microscope' className='bottomGalleryImg' />
+                        <img src={require('../styles/img/scope2.jpg')} alt='Microscope' className='bottomGalleryImg' />
                     </div>
                     <div>
-                        <img src={require('../img/scope3.jpg')} alt='Microscope Front' className='bottomGalleryImg' />
+                        <img src={require('../styles/img/scope3.jpg')} alt='Microscope Front' className='bottomGalleryImg' />
                     </div>
                     <div>
                         <p> What we see are colors produced by interference of light waves after passing through the substance in
@@ -38,12 +38,12 @@ const Gallery = () => {
                                     company and Crossed Polars microcrystalline artworks.</p>
                     </div>
                     <div id='scottImgDiv'>
-                        <img id='scottImg' src={require('../img/Scott_Photo_2.jpg')} alt='Scott' />
+                        <img id='scottImg' src={require('../styles/img/Scott_Photo_2.jpg')} alt='Scott' />
                     </div>
                 </div>
                 <div className='pricing'>
                     <h2>Pricing</h2>
-                    <img className='price' src={require('../img/Artwork_Price_List_JPEG.jpg')} alt='pricing' />
+                    <img className='price' src={require('../styles/img/Artwork_Price_List_JPEG.jpg')} alt='pricing' />
                 </div>
             </div>
         </div>

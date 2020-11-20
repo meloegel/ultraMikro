@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import './App.css';
+import './styles/sass/index.scss';
 
 import Home from './components/Home'
 import Publications from './components/Publications'
@@ -20,7 +21,7 @@ function App() {
             <NavLink to='/contact'>Contact</NavLink>
           </div>
           <div className='navLogoDiv'>
-            <img src={require('./img/logo.jpg')} alt='logo' className='navLogo' />
+            <img src={require('./styles/img/logo.jpg')} alt='logo' className='navLogo' />
           </div>
         </nav>
         <div>
@@ -33,7 +34,7 @@ function App() {
         </div>
         <nav className='nav'>
           <div className='navLogoDiv'>
-            <img src={require('./img/logo.jpg')} alt='logo' className='navLogo' />
+            <img src={require('./styles/img/logo.jpg')} alt='logo' className='navLogo' />
           </div>
           <div className='navFooter'>
             <NavLink to="/">Home</NavLink>
