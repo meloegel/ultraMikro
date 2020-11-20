@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
-import './App.css';
 import './styles/sass/index.scss';
 
 import Home from './components/Home'

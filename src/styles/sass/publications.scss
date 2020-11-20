@@ -1,7 +1,7 @@
 /* ||| Publications Page ||| */
 .pubDiv {
   height: 100%;
-  background-image: url("./img/crystal_bubble.jpg");
+  background-image: url("../img/crystal_bubble.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 30%;
@@ -33,4 +33,51 @@
   padding: 1rem;
   margin: 1rem auto;
   border-radius: 2rem;
+}
+
+/* ||| Media Queries ||| */
+
+@media only screen and (max-width: 620px) {
+  /* ||| Publications ||| */
+  .pubList {
+    height: 110vh;
+  }
+  .pubList li {
+    padding: 0.1rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  /* ||| Publications ||| */
+  .pubList {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* ||| Publications ||| */
+  .pubList li {
+    padding: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* ||| Publications ||| */
+  .pubList {
+    font-size: 0.9rem;
+    height: auto;
+  }
+  .pubList li {
+    padding: 0.1rem;
+  }
+  .price {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .pubList {
+    height: auto;
+  }
 }

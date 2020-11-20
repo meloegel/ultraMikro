@@ -50,3 +50,40 @@
   text-align: center;
   padding: 1rem;
 }
+
+/* ||| Media Queries ||| */
+
+@media only screen and (max-width: 620px) {
+  .aboutArt {
+    flex-direction: column;
+    text-align: center;
+  }
+  .aboutArt div {
+    width: 90%;
+    margin: 0 atuo;
+  }
+  .scottImgDiv {
+    margin: 0 auto;
+  }
+  .price {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .galleryImg {
+    height: auto;
+    width: 80%;
+  }
+  .aboutArt {
+    font-size: 0.8rem;
+  }
+  .crossedPolars {
+    font-size: 1.4rem;
+  }
+  #scottImg {
+    height: auto;
+    width: 80%;
+  }
+}
