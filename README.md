@@ -16,8 +16,8 @@ Basic site the provides an informational hub for Ultramikro. Commissioned by the
 -React Image Gallery <br>
 -Sass <br>
 
-## Screenshots
+<!-- ## Screenshots
 
 <img src="./src/styles/imgs/.PNG" width = "600" />
 
-## Code Snippets
+## Code Snippets -->
