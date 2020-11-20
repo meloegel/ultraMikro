@@ -9,3 +9,14 @@ body {
   border-right: 2px solid white;
   border-left: 2px solid white;
 }
+ol {
+  background-color: black;
+  color: white;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  list-style-position: inside;
+  text-align: left;
+}
+h3 {
+  color: white;
+}

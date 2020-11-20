@@ -1,0 +1,36 @@
+/* ||| Publications Page ||| */
+.pubDiv {
+  height: 100%;
+  background-image: url("./img/crystal_bubble.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-shadow: 0 0 5px black; */
+}
+
+.pubListDiv {
+  text-align: center;
+}
+.className {
+  text-align: center;
+}
+.pubList {
+  width: 80%;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.pubList li {
+  margin-bottom: 1rem;
+}
+.pubTitle {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: auto;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 2rem;
+}

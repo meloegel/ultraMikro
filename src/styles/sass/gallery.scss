@@ -1,0 +1,52 @@
+/* ||| Gallery Page ||| */
+.galleryTitle {
+  font-size: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+.galleryImg {
+  height: 500px;
+  margin: 0 auto;
+}
+.sliderDiv {
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
+}
+.galleryDiv {
+  position: relative;
+}
+.bottomGalleryImg {
+  margin: 0 auto;
+  /* height: 400px; */
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+.aboutArt {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.aboutArt div {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.pricing {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1 rem;
+}
+.price {
+  padding: 1rem;
+}
+.crossedPolars {
+  font-size: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
