@@ -10,21 +10,30 @@
   justify-content: center;
   /* text-shadow: 0 0 5px black; */
 }
-
+.evenList {
+  color: rgb(174, 174, 174);
+}
 .pubListDiv {
   text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
 }
 .className {
   text-align: center;
 }
-.pubList {
-  width: 80%;
-  font-size: 1.2rem;
-  display: inline-block;
+.grid {
+  background-color: black;
+  border-radius: 2rem;
+  color: white;
 }
 .pubList li {
   margin-bottom: 1rem;
 }
+.divider {
+  border-bottom: 1px dashed white;
+  padding: 0.2rem;
+}
+
 .pubTitle {
   text-align: center;
   background-color: black;
@@ -33,6 +42,9 @@
   padding: 1rem;
   margin: 1rem auto;
   border-radius: 2rem;
+}
+.pubListIcon {
+  color: white;
 }
 
 /* ||| Media Queries ||| */
