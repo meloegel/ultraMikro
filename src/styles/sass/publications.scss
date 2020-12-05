@@ -49,47 +49,9 @@
 
 /* ||| Media Queries ||| */
 
-@media only screen and (max-width: 620px) {
-  /* ||| Publications ||| */
-  .pubList {
-    height: 110vh;
-  }
-  .pubList li {
-    padding: 0.1rem;
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  /* ||| Publications ||| */
-  .pubList {
-    font-size: 1.25rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  /* ||| Publications ||| */
-  .pubList li {
-    padding: 0.2rem;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   /* ||| Publications ||| */
-  .pubList {
-    font-size: 0.9rem;
-    height: auto;
-  }
-  .pubList li {
-    padding: 0.1rem;
-  }
   .price {
     width: 95%;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .pubList {
-    height: auto;
   }
 }
