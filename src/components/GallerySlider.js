@@ -17,6 +17,10 @@ class SimpleSlider extends React.Component {
             <div className='sliderDiv'>
                 <Slider {...settings}>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Phenacetin_Psychic_River.jpg')} alt='Phenacetin - Psychic River' className='galleryImg' />
+                        <h3>Phenacetin - Psychic River</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Adipic_acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
                         <h3>Adipic acid - Feather Dance</h3>
                     </div>
@@ -33,7 +37,7 @@ class SimpleSlider extends React.Component {
                         <h3>Chloro-anthraquinone - Froggy</h3>
                     </div>
                     <div className='galleryDiv'>
-                        <img src={require('../styles/img/art/Methylparaben_Crystal Weave_Fuschia Thumb.jpg')} alt='Methylparabean Crystal Weave - Fuschia Thumb' className='galleryImg' />
+                        <img src={require('../styles/img/art/Methylparaben_Crystal Weave_Fuschia Thumb.jpg')} alt='Methylparabean - Crystal Weave Fuschia Thumb' className='galleryImg' />
                         <h3>Methylparabean Crystal Weave - Fuschia Thumb</h3>
                     </div>
                     <div className='galleryDiv'>
@@ -43,6 +47,10 @@ class SimpleSlider extends React.Component {
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Propylparaben_Sky_Thumb.png')} alt='Propylparaben - Sky Thumb' className='galleryImg' />
                         <h3>Propylparaben - Sky Thumb</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Adipic_acid_Feather_Dance_Fire.jpg')} alt='Adipic acid - Feather Dance Fire' className='galleryImg' />
+                        <h3>Adipic acid - Feather Dance Fire</h3>
                     </div>
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Toluic_acid_Glacial_Valley.jpg')} alt='Toluic acid - Glacial Valley' className='galleryImg' />
@@ -55,6 +63,14 @@ class SimpleSlider extends React.Component {
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Propylparaben_Redshift.jpg')} alt='Propylparaben - Red Shift' className='galleryImg' />
                         <h3>Propylparaben - Red Shift</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Methylparaben_Crystal Weave_Teal.jpg')} alt='Methylparabean - Crystal Weave Teal' className='galleryImg' />
+                        <h3>Methylparabean - Crystal Weave Teal</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Phenacetin_Blue_Lagoon.jpg')} alt='Phenacetin - Blue Lagoon' className='galleryImg' />
+                        <h3>Phenacetin - Blue Lagoon</h3>
                     </div>
                 </Slider>
             </div>
