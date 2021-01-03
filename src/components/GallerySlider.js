@@ -21,12 +21,20 @@ class SimpleSlider extends React.Component {
                         <h3>Adipic acid - Feather Dance</h3>
                     </div>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/Toluic_acid_The_Forest.jpg')} alt='Toluic acid - The Forest' className='galleryImg' />
+                        <h3>Toluic acid - The Forest</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/chloro-anthraquinone_Froggy.jpg')} alt='Chloro-anthraquinone - Froggy' className='galleryImg' />
                         <h3>Chloro-anthraquinone - Froggy</h3>
                     </div>
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/Methylparaben_Crystal Weave_Fuschia Thumb.jpg')} alt='Methylparabean Crystal Weave - Fuschia Thumb' className='galleryImg' />
                         <h3>Methylparabean Crystal Weave - Fuschia Thumb</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/Toluic_acid_A_Walk_Through_The_Crystalline_Forest.jpg')} alt='Toluic acid - A Walk Thorugh The Crystalline Forest' className='galleryImg' />
+                        <h3>Toluic acid - A Walk Thorugh The Crystalline Forest</h3>
                     </div>
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/Propylparaben_SKY Thumb.jpg')} alt='Propylparaben - Sky Thumb' className='galleryImg' />
