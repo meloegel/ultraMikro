@@ -37,8 +37,20 @@ class SimpleSlider extends React.Component {
                         <h3>Toluic acid - A Walk Thorugh The Crystalline Forest</h3>
                     </div>
                     <div className='galleryDiv'>
-                        <img src={require('../styles/img/Propylparaben_SKY Thumb.jpg')} alt='Propylparaben - Sky Thumb' className='galleryImg' />
+                        <img src={require('../styles/img/Propylparaben_Sky_Thumb.png')} alt='Propylparaben - Sky Thumb' className='galleryImg' />
                         <h3>Propylparaben - Sky Thumb</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/Toluic_acid_Glacial_Valley.jpg')} alt='Toluic acid - Glacial Valley' className='galleryImg' />
+                        <h3>Toluic acid - Glacial Valley</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/Phenacetin_PurpleRain.jpg')} alt='Phenacetin - Purple Rain' className='galleryImg' />
+                        <h3>Phenacetin - Purple Rain</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/Propylparaben_Redshift.jpg')} alt='Propylparaben - Red Shift' className='galleryImg' />
+                        <h3>Propylparaben - Red Shift</h3>
                     </div>
                 </Slider>
             </div>
