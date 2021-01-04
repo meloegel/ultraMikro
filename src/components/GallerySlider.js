@@ -29,6 +29,14 @@ class SimpleSlider extends React.Component {
                         <h3>Toluic acid - The Forest</h3>
                     </div>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Benzoic_acid_Jamaica_Mon.jpg')} alt='Benzoic acid - Jamacia Mon' className='galleryImg' />
+                        <h3>Benzoic acid - Jamacia Mon</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Alprazolam_Xmas.png')} alt='Alprazolam - Xmas' className='galleryImg' />
+                        <h3>Alprazolam - Xmas</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Phenacetin_Purple_Rain_Navaho.jpg')} alt='Phenacetin - Purple Rain Navaho' className='galleryImg' />
                         <h3>Phenacetin - Purple Rain Navaho</h3>
                     </div>
@@ -79,6 +87,10 @@ class SimpleSlider extends React.Component {
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Phenacetin_Blue_Lagoon.jpg')} alt='Phenacetin - Blue Lagoon' className='galleryImg' />
                         <h3>Phenacetin - Blue Lagoon</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Adipic_acid_Feather_Dance_Sha.jpg')} alt='Adipic acid - Feather Dance Sha' className='galleryImg' />
+                        <h3>Adipic acid - Feather Dance Sha</h3>
                     </div>
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Vanillin_Flame.jpg')} alt='Vanillin - Flame' className='galleryImg' />
