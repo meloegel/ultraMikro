@@ -21,7 +21,7 @@ class SimpleSlider extends React.Component {
                         <h3>Phenacetin - Psychic River</h3>
                     </div>
                     <div className='galleryDiv'>
-                        <img src={require('../styles/img/art/Adipic_acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
+                        <img src={require('../styles/img/art/Adipic_Acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
                         <h3>Adipic acid - Feather Dance</h3>
                     </div>
                     <div className='galleryDiv'>
@@ -61,6 +61,10 @@ class SimpleSlider extends React.Component {
                         <h3>Phenacetin - Purple Rain</h3>
                     </div>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Nicinamide_Gaia_Flag.jpg')} alt='Nicinamide - Gaia Flag' className='galleryImg' />
+                        <h3>Nicinamide - Gaia Flag</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Propylparaben_Redshift.jpg')} alt='Propylparaben - Red Shift' className='galleryImg' />
                         <h3>Propylparaben - Red Shift</h3>
                     </div>
@@ -71,6 +75,10 @@ class SimpleSlider extends React.Component {
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Phenacetin_Blue_Lagoon.jpg')} alt='Phenacetin - Blue Lagoon' className='galleryImg' />
                         <h3>Phenacetin - Blue Lagoon</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Vanillin_Flame.jpg')} alt='Vanillin - Flame' className='galleryImg' />
+                        <h3>Vanillin - Flame</h3>
                     </div>
                 </Slider>
             </div>
