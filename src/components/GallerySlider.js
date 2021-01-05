@@ -4,8 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import FeatherDance from '../styles/img/art/Adipic_Acid_Feather_Dance.jpg';
-
 
 class SimpleSlider extends React.Component {
     render() {
@@ -23,10 +21,10 @@ class SimpleSlider extends React.Component {
                         <img src={require('../styles/img/art/Phenacetin_Psychic_River.jpg')} alt='Phenacetin - Psychic River' className='galleryImg' />
                         <h3>Phenacetin - Psychic River</h3>
                     </div>
-                    <div className='galleryDiv'>
-                        <img src={FeatherDance} alt='Adipic acid - Feather Dance' className='galleryImg' />
+                    {/* <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Adipic_Acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
                         <h3>Adipic acid - Feather Dance</h3>
-                    </div>
+                    </div> */}
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Toluic_acid_The_Forest.jpg')} alt='Toluic acid - The Forest' className='galleryImg' />
                         <h3>Toluic acid - The Forest</h3>
