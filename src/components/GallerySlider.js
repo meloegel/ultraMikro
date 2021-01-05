@@ -128,6 +128,10 @@ class SimpleSlider extends React.Component {
                         <img src={require('../styles/img/art/Vanillin_Roussea.png')} alt='Vanillin - Roussea' className='galleryImg' />
                         <h3>Vanillin - Roussea</h3>
                     </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Sodium_Nitrite_Watermelon_Mesa.png')} alt='Sodium Nitrite - Watermelon Mesa' className='galleryImg' />
+                        <h3>Sodium Nitrite - Watermelon Mesa</h3>
+                    </div>
                 </Slider>
             </div>
         );
