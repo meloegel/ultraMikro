@@ -21,10 +21,6 @@ class SimpleSlider extends React.Component {
                         <img src={require('../styles/img/art/Phenacetin_Psychic_River.jpg')} alt='Phenacetin - Psychic River' className='galleryImg' />
                         <h3>Phenacetin - Psychic River</h3>
                     </div>
-                    {/* <div className='galleryDiv'>
-                        <img src={require('../styles/img/art/Adipic_Acid_Feather_Dance.jpg')} alt='Adipic acid - Feather Dance' className='galleryImg' />
-                        <h3>Adipic acid - Feather Dance</h3>
-                    </div> */}
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Toluic_acid_The_Forest.jpg')} alt='Toluic acid - The Forest' className='galleryImg' />
                         <h3>Toluic acid - The Forest</h3>
