@@ -85,6 +85,10 @@ class SimpleSlider extends React.Component {
                         <h3>Phenacetin - Purple Rain</h3>
                     </div>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Vanillin_Compress_and_Stretch.png')} alt='Vanillin - Compress and Stretch' className='galleryImg' />
+                        <h3>Vanillin - Compress and Stretch</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Niacinamide_Gaia_Flag.jpg')} alt='Nicinamide - Gaia Flag' className='galleryImg' />
                         <h3>Nicinamide - Gaia Flag</h3>
                     </div>
@@ -119,6 +123,10 @@ class SimpleSlider extends React.Component {
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Niacinamide_Eiger_Gray.jpg')} alt='Nicinamide - Eiger Gray' className='galleryImg' />
                         <h3>Nicinamide - Eiger Gray</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Vanillin_Roussea.png')} alt='Vanillin - Roussea' className='galleryImg' />
+                        <h3>Vanillin - Roussea</h3>
                     </div>
                 </Slider>
             </div>
