@@ -65,6 +65,10 @@ class SimpleSlider extends React.Component {
                         <h3>Propylparaben - Sky Thumb</h3>
                     </div>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Anthraquinone_Acicular_Spherulitic_Mambo.png')} alt='Anthraquinone Acicular- Spherulitic Mambo' className='galleryImg' />
+                        <h3>Anthraquinone Acicular- Spherulitic Mambo</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Adipic_acid_Feather_Dance_Fire.jpg')} alt='Adipic acid - Feather Dance Fire' className='galleryImg' />
                         <h3>Adipic acid - Feather Dance Fire</h3>
                     </div>
