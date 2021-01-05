@@ -33,6 +33,10 @@ class SimpleSlider extends React.Component {
                         <h3>Benzoic acid - Jamacia Mon</h3>
                     </div>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Niacinamide_Eiger_Green.jpg')} alt='Nicinamide - Eiger Green' className='galleryImg' />
+                        <h3>Nicinamide - Eiger Green</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Alprazolam_Xmas.png')} alt='Alprazolam - Xmas' className='galleryImg' />
                         <h3>Alprazolam - Xmas</h3>
                     </div>
@@ -47,6 +51,10 @@ class SimpleSlider extends React.Component {
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Methylparaben_Crystal Weave_Fuschia Thumb.jpg')} alt='Methylparabean - Crystal Weave Fuschia Thumb' className='galleryImg' />
                         <h3>Methylparabean Crystal Weave - Fuschia Thumb</h3>
+                    </div>
+                    <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Benzoic_acid_Spherulites.jpg')} alt='Benzoic Acid - Spherilites' className='galleryImg' />
+                        <h3>Benzoic Acid - Spherilites</h3>
                     </div>
                     <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Toluic_acid_A_Walk_Through_The_Crystalline_Forest.jpg')} alt='Toluic acid - A Walk Thorugh The Crystalline Forest' className='galleryImg' />
