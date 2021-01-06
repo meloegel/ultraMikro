@@ -34,6 +34,10 @@ class SimpleSlider extends React.Component {
                         <h3>Nicinamide - Eiger Green</h3>
                     </div>
                     <div className='galleryDiv'>
+                        <img src={require('../styles/img/art/Naphthalene_Meteors_Fuschia.png')} alt='Naphthalene - Fuschia Meteors' className='galleryImg' />
+                        <h3>Naphthalene - Fuschia Meteors</h3>
+                    </div>
+                    <div className='galleryDiv'>
                         <img src={require('../styles/img/art/Alprazolam_Xmas.png')} alt='Alprazolam - Xmas' className='galleryImg' />
                         <h3>Alprazolam - Xmas</h3>
                     </div>
